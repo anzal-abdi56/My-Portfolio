@@ -1,0 +1,38 @@
+
+
+.home {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #abc4ed;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  p {
+    color: #555;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    padding:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .social-link {
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .social-link:hover {
+    color: #0056b3;
+  }
+  

@@ -1,15 +1,16 @@
-import "../styles/Home.css"
-import React from 'react'
-import {GitHub} from '@mui/icons-material'
+import React from 'react';
+import '../styles/Contacts.css'; // Import your Contacts.css file
 import { LinkedIn } from '@mui/icons-material'
 import { Email } from '@mui/icons-material'
+import { GitHub } from '@mui/icons-material'
 
-function Home() {
+function Contacts() {
   return (
-    <div className='home'>
-      <h2>Welcome to My Portfolio!</h2>
-      <p>Hello, I'm Anzal Abdinoor, a seasoned software engineer on a mission to transform innovative ideas into exceptional digital experiences.</p>
-      <a href='mailto:anzalabdinoor5@gmail.com' className='social-link'>
+    <div className='contacts'>
+      <h2>Contact Me</h2>
+      <p>Feel free to connect with me through the following channels:</p>
+      <div className='connect-with-me'>
+        <a href='mailto:anzalabdinoor5@gmail.com' className='social-link'>
           <Email/>
         </a>
         <a href='https://www.linkedin.com/in/anzal-abdinoor-1629b5285' className='social-link' target='_blank' rel='noopener noreferrer'>
@@ -18,8 +19,9 @@ function Home() {
         <a href='https://github.com/anzal-abdi56' className='social-link' target='_blank' rel='noopener noreferrer'>
           <GitHub/>
         </a>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Contacts;
